@@ -1,7 +1,6 @@
 import React from 'react'
-import './home.css'
-
-const home = () => {
+import './Form.css'
+const Form = ({type}) => {
   return (
     <div className="body">
     <div className="container">
@@ -9,8 +8,14 @@ const home = () => {
           <div className="detail">
           <h1>Good Morning, Master</h1>
           <p>Please, enter your details</p>
+          <h1>{ type === 'login' ? 'Login Form' : 'Registration Form' }
+
+          </h1>
           </div>
           <div className="input-field">
+            {type === 'register' && (
+          <input type="text" placeholder='Username' />
+        )}
           <input type="email" placeholder='Email' />
           <input type="password" placeholder='Password' />
           </div>
@@ -22,9 +27,11 @@ const home = () => {
           <p>forget password?</p>
           </div>
           <div className="verify">
-            <button >Login In</button>
-            <p>------ or ------</p>
-            <button>Login with Google</button>
+            <button>{type === 'login' ? 'Login' : 'Register'}</button>
+            {type === 'login' && (
+            <><p>------ or ------</p>
+            <button>Login with Google</button></>
+        )}
           </div>
     
         </form>
@@ -34,4 +41,5 @@ const home = () => {
   )
 }
 
-export default home
+export default Form
+
