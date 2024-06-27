@@ -1,0 +1,84 @@
+.body{
+  display: flex;
+  justify-content: center;
+  }
+
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background-color: antiquewhite;
+      margin-top: 100px;
+      width: fit-content;
+      height: fit-content;
+  }
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px;
+}
+.detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.detail h1{
+  font-size: 30px;
+  color: purple;
+}
+.detail p{
+  font-size: 20px;
+  color: purple;   
+}
+.input-field {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.input-field input{
+  height: 30px;
+  width: 90%;
+  padding: 5px;
+  border: 1px solid purple;
+  border-radius: 5px;
+}
+.input-field input::placeholder {
+  color: purple;
+}
+.check{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: -15px;
+}
+.checkbox{
+  display: flex;
+}
+.verify{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  gap: 10px;
+}
+.verify button{
+  height: 40px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.container img{
+  height: 500px;
+  width: 500px;
+}
