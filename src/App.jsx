@@ -5,6 +5,9 @@ import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Register from './Register'
 import Login from './Login'
+import Learningcomponent from './component/Learningcomponent'
+import Headingcomponent from './component/Headingcomponent'
+import Home from './component/Home'
 
 
 function App() {
@@ -13,8 +16,12 @@ function App() {
   return (
   <BrowserRouter>
   <Routes>
-    <Route path='/login' element={<Login /> }/>
+    <Route path='/' element={<Login /> }/>
     <Route path='/register' element={<Register /> }/>
+    <Route path='/learning' element={<Learningcomponent /> }/>
+    <Route path='/heading' element={<Headingcomponent /> }/>
+    <Route path='/home' element={<Home /> }/>
+
   </Routes>
   </BrowserRouter>
   )

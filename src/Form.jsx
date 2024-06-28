@@ -19,13 +19,17 @@ const Form = ({type}) => {
           <input type="email" placeholder='Email' />
           <input type="password" placeholder='Password' />
           </div>
-          <div className="check">
-          <div className="checkbox">
-            <input type="checkbox" />
-            <p>Remember me</p>
-          </div>
-          <p>forget password?</p>
-          </div>
+         {
+          type === "login" && ( 
+            <div className="check">
+            <div className="checkbox">
+              <input type="checkbox" />
+              <p>Remember me</p>
+            </div>
+            <p>forget password?</p>
+            </div>
+          )
+         }
           <div className="verify">
             <button>{type === 'login' ? 'Login' : 'Register'}</button>
             {type === 'login' && (
@@ -37,6 +41,7 @@ const Form = ({type}) => {
         </form>
         <img src="https://imgs.search.brave.com/FaD6XSk6HP-vkXz8Lqzz64XB0QLZrdeUMvZ4ZmysOrM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3LzIwLzczLzI4/LzM2MF9GXzcyMDcz/Mjg2Nl94amJTamV0/bkxocGptbHNja3o5/T21vUnh2Qnh1eWRo/MS5qcGc" alt="" />
     </div>
+    
     </div>
   )
 }
