@@ -1,0 +1,31 @@
+nav{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    background-color: brown;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.btn button{
+    height: 30px;
+    width: 90px;
+    background-color: aliceblue;
+    color: brown;
+    font-size: 20px;
+}

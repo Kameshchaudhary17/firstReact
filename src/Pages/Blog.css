@@ -1,0 +1,16 @@
+.blog{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.blog h1{
+    font-size: 40px;
+    color: red;
+}
+.blog p{
+    width: 600px;
+    text-align: justify;
+}

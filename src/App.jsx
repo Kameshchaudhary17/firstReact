@@ -8,6 +8,9 @@ import Login from './Login'
 import Learningcomponent from './component/Learningcomponent'
 import Headingcomponent from './component/Headingcomponent'
 import Home from './component/Home'
+import Blog from './Pages/Blog'
+import Submit from './Pages/Submit'
+import EditBlog from './Pages/EditBlog'
 
 
 function App() {
@@ -21,6 +24,10 @@ function App() {
     <Route path='/learning' element={<Learningcomponent /> }/>
     <Route path='/heading' element={<Headingcomponent /> }/>
     <Route path='/home' element={<Home /> }/>
+    <Route path='/blog' element={<Blog /> }/>
+    <Route path='/submit' element={<Submit /> }/>
+    <Route path='/editblog' element={<EditBlog /> }/>
+
 
   </Routes>
   </BrowserRouter>
