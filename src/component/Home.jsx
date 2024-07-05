@@ -9,7 +9,7 @@ const Home = () => {
     <>
     
     <Navbar />
-   <div className="container">
+   <div className="content">
     <Card text = 'Hero' photo = 'https://imgs.search.brave.com/YUfhWIxN6OlAXQRWKlydNTBIJjGVgXaVwa3u1Qtr4GQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzMzLzUz/LzcxLzMzNTM3MWM0/NTVhNWUyY2QyMWE5/ZjY3NTIyNzkwMDU0/LmpwZw' />
     <Card text = 'Cartoon' photo = 'https://imgs.search.brave.com/uKlHiJiVBnbPCevyZq6ppMQ0UawM3Y4g-WD-Zv5f_QE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZiLzQ3/LzJiL2ZiNDcyYjlh/M2ZkZTU5ZDBjODll/ZGRmN2IyNzU2NjVh/LmpwZw' />
     <Card text = 'Superhero' photo = 'https://imgs.search.brave.com/TFPDAfZAnJcoWAx1Ce8E64LGsVc324kEOTbCHWH4d_Q/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXRvY2FydG9vbi5j/b20vaW1hZ2VzL2lu/ZGV4LWJnLndlYnA'/>
