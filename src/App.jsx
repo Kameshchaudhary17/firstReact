@@ -11,6 +11,7 @@ import Home from './component/Home'
 import Blog from './Pages/Blog'
 import Submit from './Pages/Submit'
 import EditBlog from './Pages/EditBlog'
+import Table from './Pages/Table'
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
     <Route path='/blog' element={<Blog /> }/>
     <Route path='/submit' element={<Submit /> }/>
     <Route path='/editblog' element={<EditBlog /> }/>
+    <Route path='/table' element={<Table /> }/>
+
 
 
   </Routes>
