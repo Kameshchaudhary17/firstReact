@@ -6,7 +6,7 @@ const login = () => {
   return (
     <div className="body">
     <div className="container">
-        <form action="http://localhost:5501/login" encType='true' method='GET'>
+        <form action="http://localhost:5501/login" encType='true' method='POST'>
           <div className="detail">
           <h1>Good Morning, Master</h1>
           <p>Please, enter your details</p>
